@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Fermer",
+        "openWallet": "Ouvrir le portefeuille",
+        "copyLink": "Copier le lien",
+        "linkCopied": "Lien copié",
+        "copied": "Lien copié",
+        "yourWallet": "Votre portefeuille",
+        "retry": "Répéter",
+        "get": "Télécharger",
+        "mobile": "Mobile",
+        "browserExtension": "Extension",
+        "desktop": "Bureau"
+    },
+    "button":
+    {
+        "connectWallet": "Connecter le portefeuille",
+        "dropdown":
+        {
+            "copy": "Copier l'adresse",
+            "copied": "L'adresse est copiée!",
+            "disconnect": "Désactiver le portefeuille"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Ouvrez {{ name }} pour confirmer la transaction."
+        },
+        "transactionSent":
+        {
+            "header": "Transaction envoyée",
+            "text": "Votre transaction sera traitée dans quelques secondes."
+        },
+        "transactionCanceled":
+        {
+            "header": "Transaction annulée",
+            "text": "L'état de votre compte ne changera pas."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Wallet",
+        "recent": "Récent",
+        "installed": "Défini",
+        "popular": "Populaire"
+    },
+    "walletModal":
+    {
+        "loading": "Portefeuilles chargés",
+        "wallets": "Porte-monnaies",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Connectez le portefeuille",
+            "openWalletOnTelegramOrSelect": "Connectez Wallet à Telegram ou choisissez un portefeuille à connecter",
+            "openWalletOnTelegram": "Ouvrir Wallet dans Telegram",
+            "openLink": "Ouvrir le lien",
+            "scan": "Scannez l'appareil photo de votre téléphone"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Connectez le portefeuille",
+            "scan": "Scannez le code QR avec l'appareil photo de votre téléphone",
+            "availableWallets": "Portefeuilles disponibles"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "Afficher le code QR",
+            "scanQR": "Scannez le QR code ci-dessous par la caméra dans l'application {{ nom }}, ou par la caméra de votre téléphone",
+            "continueIn": "Continuez dans {{ name }} …",
+            "connectionDeclined": "Connexion refusée"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Scannez le QR code ci-dessous par la caméra dans l'application {{ nom }}, ou par la caméra de votre téléphone",
+            "continueInExtension": "Ouvrez l'extension de navigateur {{ name }}",
+            "dontHaveExtension": "Il semble que vous n'ayez pas installé l'extension de navigateur {{name }}",
+            "getWallet": "Télécharger {{ name }} ",
+            "continueOnDesktop": "Ouvrez {{ name }} sur l'ordinateur…",
+            "openWalletOnTelegram": "Ouvrir Wallet dans Telegram",
+            "connectionDeclined": "Connexion refusée"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Qu'est-ce qu'un portefeuille?",
+            "secureDigitalAssets": "Stockage sécurisé des actifs numériques",
+            "walletProtects": "Le portefeuille protège et gère vos actifs numériques, y compris TON, jetons et objets de collection.",
+            "controlIdentity": "Contrôle de votre identité Web3",
+            "manageIdentity": "Gérez votre identité numérique et accédez facilement à des applications décentralisées. Gardez le contrôle de vos données et participez en toute sécurité à l'écosystème blockchain.",
+            "effortlessCryptoTransactions": "Crypto-transactions simples",
+            "easilySend": "Envoyez, recevez et suivez facilement vos crypto-monnaies. Optimisez vos opérations avec des applications décentralisées.",
+            "getAWallet": "Télécharger portefeuille"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Confirmez l'action dans {{ name }}",
+            "text": "Ça prendra quelques secondes."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

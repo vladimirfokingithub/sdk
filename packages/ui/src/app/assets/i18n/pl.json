@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Zamknąć",
+        "openWallet": "Otwórz portfel",
+        "copyLink": "Kopiuj link",
+        "linkCopied": "Link skopiowany",
+        "copied": "Link skopiowany",
+        "yourWallet": "Twój portfel",
+        "retry": "Powtórzyć",
+        "get": "Pozbyć się",
+        "mobile": "Przenośny",
+        "browserExtension": "Rozszerzenie",
+        "desktop": "Desktop"
+    },
+    "button":
+    {
+        "connectWallet": "Połącz portfel",
+        "dropdown":
+        {
+            "copy": "Skopiuj adres",
+            "copied": "Adres skopiowany!",
+            "disconnect": "Wyłącz portfel"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Otwórz {{ name }}, aby potwierdzić transakcję."
+        },
+        "transactionSent":
+        {
+            "header": "Transakcja wysłana",
+            "text": "Twoja transakcja zostanie przetworzona za kilka sekund."
+        },
+        "transactionCanceled":
+        {
+            "header": "Transakcja anulowana",
+            "text": "Stan twojego konta nie ulegnie zmianie."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Wallet w",
+        "recent": "Niedawny",
+        "installed": "Nastawiony",
+        "popular": "Popularny"
+    },
+    "walletModal":
+    {
+        "loading": "Portfele do pobrania",
+        "wallets": "Portfel",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Podłącz portfel",
+            "openWalletOnTelegramOrSelect": "Połącz portfel w Telegramie lub wybierz portfel, z którym chcesz się połączyć",
+            "openWalletOnTelegram": "Otwórz portfel w Telegramie",
+            "openLink": "Otwórz link",
+            "scan": "Zeskanuj aparatem telefonu"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Podłącz portfel",
+            "scan": "Zeskanuj kod QR aparatem telefonu",
+            "availableWallets": "Dostępne portfele"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "Pokaż kod QR",
+            "scanQR": "Zeskanuj poniższy kod QR aparatem w aplikacji {{ name }} lub aparatem telefonu",
+            "continueIn": "Kontynuuj w {{ name }}…",
+            "connectionDeclined": "Połączenie odrzucone"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Zeskanuj poniższy kod QR aparatem w aplikacji {{ name }} lub aparatem telefonu",
+            "continueInExtension": "Otwórz rozszerzenie przeglądarki {{ name }}",
+            "dontHaveExtension": "Wygląda na to, że nie masz zainstalowanego rozszerzenia przeglądarki {{ name }}",
+            "getWallet": "Pobierz {{ name }}",
+            "continueOnDesktop": "Otwórz {{ name }} na komputerze…",
+            "openWalletOnTelegram": "Otwórz portfel w Telegramie",
+            "connectionDeclined": "Połączenie odrzucone"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Co to jest portfel?",
+            "secureDigitalAssets": "Bezpieczne przechowywanie zasobów cyfrowych",
+            "walletProtects": "Portfel chroni i zarządza Twoimi zasobami cyfrowymi, w tym TON, tokenami i przedmiotami kolekcjonerskimi.",
+            "controlIdentity": "Kontroluj swoją tożsamość Web3",
+            "manageIdentity": "Zarządzaj swoją cyfrową tożsamością i z łatwością uzyskuj dostęp do zdecentralizowanych aplikacji. Zachowaj kontrolę nad swoimi danymi i bezpiecznie uczestnicz w ekosystemie blockchain.",
+            "effortlessCryptoTransactions": "Proste transakcje kryptograficzne",
+            "easilySend": "Łatwo wysyłaj, odbieraj i śledź swoje kryptowaluty. Zoptymalizuj swoje operacje za pomocą zdecentralizowanych aplikacji.",
+            "getAWallet": "Pobierz portfel"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Potwierdź akcję w {{ name }}",
+            "text": "To zajmie kilka sekund."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

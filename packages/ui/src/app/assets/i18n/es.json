@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Cerrar",
+        "openWallet": "Abrir cartera",
+        "copyLink": "Copiar enlace",
+        "linkCopied": "Enlace copiado",
+        "copied": "Enlace copiado",
+        "yourWallet": "Su cartera",
+        "retry": "Repetir",
+        "get": "Descargar",
+        "mobile": "Móvil",
+        "browserExtension": "Extensión",
+        "desktop": "Escritorio"
+    },
+    "button":
+    {
+        "connectWallet": "Conectar cartera",
+        "dropdown":
+        {
+            "copy": "Copiar dirección",
+            "copied": "¡La dirección está copiada!",
+            "disconnect": "Deshabilitar la billetera"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Abra {{ name }} para confirmar la transacción."
+        },
+        "transactionSent":
+        {
+            "header": "Transacción enviada",
+            "text": "Su transacción se procesará en unos segundos."
+        },
+        "transactionCanceled":
+        {
+            "header": "Transacción cancelada",
+            "text": "El estado de su cuenta no cambiará."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Wallet",
+        "recent": "Reciente",
+        "installed": "Establecido",
+        "popular": "Popular"
+    },
+    "walletModal":
+    {
+        "loading": "Las carteras se cargan",
+        "wallets": "Monederos",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Conecte la billetera",
+            "openWalletOnTelegramOrSelect": "Conecte Wallet a Telegram o elija una billetera para conectarse",
+            "openWalletOnTelegram": "Abrir Wallet en Telegram",
+            "openLink": "Abrir enlace",
+            "scan": "Escanea con la cámara de tu Teléfono"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Conecte la billetera",
+            "scan": "Escanee el código QR con la cámara de su Teléfono",
+            "availableWallets": "Carteras asequibles"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "Mostrar código QR",
+            "scanQR": "Escanee el código QR a continuación con la cámara en la aplicación {{ name }}, o con la cámara del Teléfono",
+            "continueIn": "Continuar en {{ name }}…",
+            "connectionDeclined": "Conexión rechazada"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Escanee el código QR a continuación con la cámara en la aplicación {{ name }}, o con la cámara del Teléfono",
+            "continueInExtension": "Abra la extensión del navegador {{ name }}",
+            "dontHaveExtension": "Parece que no tiene instalada la extensión del navegador {{ name }}",
+            "getWallet": "Descargar {{ name }}",
+            "continueOnDesktop": "Abra {{ name }} en el equipo…",
+            "openWalletOnTelegram": "Abrir Wallet en Telegram",
+            "connectionDeclined": "Conexión rechazada"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "¿Qué es una billetera?",
+            "secureDigitalAssets": "Almacenamiento seguro de activos digitales",
+            "walletProtects": "La billetera protege y administra sus activos digitales, incluidos TON, tokens y coleccionables.",
+            "controlIdentity": "Control de su personalidad Web3",
+            "manageIdentity": "Administre su identidad digital y acceda fácilmente a aplicaciones descentralizadas. Mantenga el control de sus datos y participe de forma segura en el ecosistema de blockchain.",
+            "effortlessCryptoTransactions": "Transacciones criptográficas simples",
+            "easilySend": "Envíe, reciba y rastree fácilmente sus criptomonedas. Optimice sus operaciones con aplicaciones descentralizadas.",
+            "getAWallet": "Descargar monedero"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Confirme la acción en {{ name }}",
+            "text": "Tardará un par de segundos."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Fechar",
+        "openWallet": "Abrir carteira",
+        "copyLink": "Copiar link",
+        "linkCopied": "Ligação copiada",
+        "copied": "Ligação copiada",
+        "yourWallet": "Sua carteira",
+        "retry": "Repetir",
+        "get": "Baixar",
+        "mobile": "Movel",
+        "browserExtension": "Extensão",
+        "desktop": "Desktop"
+    },
+    "button":
+    {
+        "connectWallet": "Conecte a carteira",
+        "dropdown":
+        {
+            "copy": "Copiar o endereço",
+            "copied": "Endereço copiado!",
+            "disconnect": "Desativar carteira"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Abra {{ name }} para confirmar a transação."
+        },
+        "transactionSent":
+        {
+            "header": "Transação enviada",
+            "text": "Sua transação será processada em alguns segundos."
+        },
+        "transactionCanceled":
+        {
+            "header": "Transação cancelada",
+            "text": "O estado da sua conta não mudará."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Wallet",
+        "recent": "Recente",
+        "installed": "Instalado",
+        "popular": "Popular"
+    },
+    "walletModal":
+    {
+        "loading": "Carteiras são carregadas",
+        "wallets": "Bolsa",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Conecte sua carteira",
+            "openWalletOnTelegramOrSelect": "Conecte a Wallet ao Telegram ou escolha uma carteira para se conectar",
+            "openWalletOnTelegram": "Abrir Wallet no Telegram",
+            "openLink": "Abrir link",
+            "scan": "Digitalize a câmera do seu telefone"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Conecte sua carteira",
+            "scan": "Digitalize o código QR com a câmera do seu telefone",
+            "availableWallets": "Carteiras disponíveis"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "Mostrar código QR",
+            "scanQR": "Digitalize o código QR abaixo com a câmera no aplicativo {{ name }}, ou com a câmera do telefone",
+            "continueIn": "Continue em {{ name }}…",
+            "connectionDeclined": "Ligação recusada"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Digitalize o código QR abaixo com a câmera no aplicativo {{ name }}, ou com a câmera do telefone",
+            "continueInExtension": "Abra a extensão do navegador {{ name }}",
+            "dontHaveExtension": "Parece que você não tem a extensão do navegador {{ name }}instalada",
+            "getWallet": "Baixar {{ name }}",
+            "continueOnDesktop": "Abra {{ name }} no computador…",
+            "openWalletOnTelegram": "Abrir Wallet no Telegram",
+            "connectionDeclined": "Ligação recusada"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "O que é uma carteira?",
+            "secureDigitalAssets": "Armazenamento seguro de ativos digitais",
+            "walletProtects": "A carteira protege e gerencia seus ativos digitais, incluindo TON, tokens e colecionáveis.",
+            "controlIdentity": "Controle da personalidade Web3",
+            "manageIdentity": "Gerencie sua identidade digital e acesse facilmente aplicativos descentralizados. Mantenha o controle de seus dados e participe com segurança do ecossistema blockchain.",
+            "effortlessCryptoTransactions": "Transações simples de criptografia",
+            "easilySend": "Envie, receba e acompanhe facilmente suas criptomoedas. Otimize suas operações com aplicativos descentralizados.",
+            "getAWallet": "Baixar carteira"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Confirme a ação em {{ name }}",
+            "text": "Vai demorar alguns segundos."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

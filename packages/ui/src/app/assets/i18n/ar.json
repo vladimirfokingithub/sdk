@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "لإغلاق",
+        "openWallet": "افتح محفظة",
+        "copyLink": "انسخ الرابط",
+        "linkCopied": "تم نسخ الرابط",
+        "copied": "تم نسخ الرابط",
+        "yourWallet": "محفظتك",
+        "retry": "كرر",
+        "get": "تحميل",
+        "mobile": "موبايل",
+        "browserExtension": "التوسع",
+        "desktop": "سطح المكتب"
+    },
+    "button":
+    {
+        "connectWallet": "قم بتوصيل المحفظة",
+        "dropdown":
+        {
+            "copy": "انسخ العنوان",
+            "copied": "تم نسخ العنوان!",
+            "disconnect": "تعطيل المحفظة"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "افتح  {{ name }}  لتأكيد المعاملة."
+        },
+        "transactionSent":
+        {
+            "header": "تم إرسال المعاملة",
+            "text": "ستتم معالجة معاملتك في بضع ثوان."
+        },
+        "transactionCanceled":
+        {
+            "header": "تم إلغاء الصفقة",
+            "text": "لن تتغير حالة حسابك."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "المحفظة في",
+        "recent": "الأخيرة",
+        "installed": "تثبيت",
+        "popular": "شعبية"
+    },
+    "walletModal":
+    {
+        "loading": "يتم تحميل محافظ",
+        "wallets": "محافظ",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "ربط محفظتك",
+            "openWalletOnTelegramOrSelect": "قم بتوصيل محفظتك إلى تيليجرام أو حدد محفظة للاتصال بها",
+            "openWalletOnTelegram": "فتح محفظة في برقية",
+            "openLink": "افتح الرابط",
+            "scan": "مسح مع كاميرا الهاتف الخاص بك"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "ربط محفظتك",
+            "scan": "مسح رمز الاستجابة السريعة مع كاميرا الهاتف الخاص بك",
+            "availableWallets": "محافظ المتاحة"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "إظهار رمز الاستجابة السريعة",
+            "scanQR": "مسح رمز الاستجابة السريعة أدناه مع الكاميرا في  {{ name }}  التطبيق ، أو مع كاميرا الهاتف الخاص بك",
+            "continueIn": "تواصل في  {{ name }} …",
+            "connectionDeclined": "تم رفض الاتصال"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "مسح رمز الاستجابة السريعة أدناه مع الكاميرا في  {{ name }}  التطبيق ، أو مع كاميرا الهاتف الخاص بك",
+            "continueInExtension": "افتح ملحق المتصفح  {{ name }} ",
+            "dontHaveExtension": "يبدو أنه ليس لديك ملحق المتصفح  {{ name }}  مثبتا",
+            "getWallet": "تحميل  {{ name }} ",
+            "continueOnDesktop": "افتح  {{ name }}  على جهاز الكمبيوتر الخاص بك…",
+            "openWalletOnTelegram": "فتح محفظة في برقية",
+            "connectionDeclined": "تم رفض الاتصال"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "ما هي المحفظة?",
+            "secureDigitalAssets": "تخزين موثوق للأصول الرقمية",
+            "walletProtects": "تحمي المحفظة الأصول الرقمية الخاصة بك وتديرها ، بما في ذلك الطن والرموز والمقتنيات.",
+            "controlIdentity": "التحكم في هويتك ويب3",
+            "manageIdentity": "إدارة هويتك الرقمية والوصول بسهولة إلى التطبيقات اللامركزية. الحفاظ على السيطرة على البيانات الخاصة بك والمشاركة بأمان في النظام البيئي بلوكشين.",
+            "effortlessCryptoTransactions": "معاملات تشفير بسيطة",
+            "easilySend": "بسهولة إرسال واستقبال وتتبع العملات المشفرة الخاصة بك. تحسين العمليات الخاصة بك مع التطبيقات اللامركزية.",
+            "getAWallet": "تحميل محفظة"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "تأكيد الإجراء في  {{ name }} ",
+            "text": "سوف يستغرق بضع ثوان."
+        },
+        "transactionSent": "الإخطارات.المعاملات",
+        "transactionCanceled": "الإخطارات.المعاملات الملغاة"
+    }
+}

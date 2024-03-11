@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "关闭",
+        "openWallet": "打开钱包",
+        "copyLink": "复制链接",
+        "linkCopied": "链接已被复制",
+        "copied": "链接已被复制",
+        "yourWallet": "你的钱包",
+        "retry": "重复一遍",
+        "get": "下载",
+        "mobile": "流动电话",
+        "browserExtension": "扩张",
+        "desktop": "桌面版"
+    },
+    "button":
+    {
+        "connectWallet": "连接钱包",
+        "dropdown":
+        {
+            "copy": "复制地址",
+            "copied": "地址已被复制！",
+            "disconnect": "禁用钱包"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "打开 {{ name }} 确认交易。"
+        },
+        "transactionSent":
+        {
+            "header": "交易已发送",
+            "text": "您的交易将在几秒钟内处理。"
+        },
+        "transactionCanceled":
+        {
+            "header": "交易已被取消",
+            "text": "您的帐户状态不会更改。"
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "钱包在",
+        "recent": "最近的",
+        "installed": "已安装",
+        "popular": "流行的"
+    },
+    "walletModal":
+    {
+        "loading": "钱包正在装货",
+        "wallets": "钱包",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "连接你的钱包",
+            "openWalletOnTelegramOrSelect": "将您的钱包连接到电报或选择一个钱包连接到",
+            "openWalletOnTelegram": "在Telegram中打开钱包",
+            "openLink": "打开链接",
+            "scan": "用手机的摄像头扫描"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "连接你的钱包",
+            "scan": "用手机的摄像头扫描QR码",
+            "availableWallets": "可用的钱包"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "显示QR码",
+            "scanQR": "使用{名称}应用程序中的相机或手机的相机扫描下面的QR码",
+            "continueIn": "继续{名称}…",
+            "connectionDeclined": "连接被拒绝"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "使用{名称}应用程序中的相机或手机的相机扫描下面的QR码",
+            "continueInExtension": "打开浏览器扩展 {{ name }} ",
+            "dontHaveExtension": "看起来您没有安装浏览器扩展 {{ name }} ",
+            "getWallet": "下载{名称}",
+            "continueOnDesktop": "在您的计算机上打开 {{ name }} …",
+            "openWalletOnTelegram": "在Telegram中打开钱包",
+            "connectionDeclined": "连接被拒绝"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "什么是钱包？",
+            "secureDigitalAssets": "可靠存储数字资产",
+            "walletProtects": "钱包保护和管理您的数字资产，包括TON，代币和收藏品。",
+            "controlIdentity": "控制您的身份Web3",
+            "manageIdentity": "管理您的数字身份并轻松访问分散的应用程序。 保持对数据的控制，并安全地参与区块链生态系统。",
+            "effortlessCryptoTransactions": "简单的密码交易",
+            "easilySend": "轻松发送，接收和跟踪您的加密货币。 使用分散式应用程序优化您的操作。",
+            "getAWallet": "下载钱包"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "确认 {{ name }} 中的操作",
+            "text": "这将需要几秒钟。"
+        },
+        "transactionSent": "▪通知。交易；交易",
+        "transactionCanceled": "▪通知。交易；交易"
+    }
+}

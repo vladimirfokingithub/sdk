@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Lukke",
+        "openWallet": "Åpne en lommebok",
+        "copyLink": "Kopier lenken",
+        "linkCopied": "Koblingen er kopiert",
+        "copied": "Koblingen er kopiert",
+        "yourWallet": "Lommeboken din",
+        "retry": "Gjenta",
+        "get": "Laste",
+        "mobile": "Mobil",
+        "browserExtension": "Utvidelse",
+        "desktop": "Skrivebord"
+    },
+    "button":
+    {
+        "connectWallet": "Koble til en lommebok",
+        "dropdown":
+        {
+            "copy": "Kopier adressen",
+            "copied": "Adressen er kopiert!",
+            "disconnect": "Deaktiver lommeboken"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Åpne {{ name }} for å bekrefte transaksjonen."
+        },
+        "transactionSent":
+        {
+            "header": "Transaksjonen er sendt",
+            "text": "Transaksjonen din blir behandlet om noen sekunder."
+        },
+        "transactionCanceled":
+        {
+            "header": "Transaksjonen er kansellert",
+            "text": "Statusen til kontoen din endres ikke."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Lommebok i",
+        "recent": "Sist",
+        "installed": "Installert",
+        "popular": "Populær"
+    },
+    "walletModal":
+    {
+        "loading": "Lommebøker lastes inn",
+        "wallets": "Lommebok",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Koble lommeboken",
+            "openWalletOnTelegramOrSelect": "Koble Lommeboken til Telegram eller velg en lommebok du vil koble til",
+            "openWalletOnTelegram": "Åpne En Lommebok I Telegram",
+            "openLink": "Åpne lenken",
+            "scan": "Skann med telefonens kamera"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Koble lommeboken",
+            "scan": "Skann QR-koden med telefonens kamera",
+            "availableWallets": "Tilgjengelige lommebøker"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "OPPRETT QR kode",
+            "scanQR": "Skann QR-koden nedenfor med kameraet i {{name}} - appen, eller med telefonens kamera",
+            "continueIn": "Fortsetter på {{ name }}…",
+            "connectionDeclined": "Tilkobling avvist"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Skann QR-koden nedenfor med kameraet i {{name}} - appen, eller med telefonens kamera",
+            "continueInExtension": "Åpne nettleserutvidelsen {{ name }}",
+            "dontHaveExtension": "Det ser ut til at du ikke har nettleserutvidelsen {{ name }} installert",
+            "getWallet": "Last ned {{ name }}",
+            "continueOnDesktop": "Åpne {{ name }} på datamaskinen din…",
+            "openWalletOnTelegram": "Åpne En Lommebok I Telegram",
+            "connectionDeclined": "Tilkobling avvist"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Hva er en lommebok?",
+            "secureDigitalAssets": "Pålitelig lagring av digitale ressurser",
+            "walletProtects": "Lommeboken beskytter og administrerer dine digitale eiendeler, inkludert TONN, tokens og samleobjekter.",
+            "controlIdentity": "Kontroll Over Din Identitet Web3",
+            "manageIdentity": "Administrer din digitale identitet og få enkel tilgang til desentraliserte applikasjoner. Hold kontroll over dataene dine og delta trygt i blockchain-økosystemet.",
+            "effortlessCryptoTransactions": "Enkle Kryptotransaksjoner",
+            "easilySend": "Enkelt sende, motta og spore cryptocurrencies. Optimaliser driften med desentraliserte applikasjoner.",
+            "getAWallet": "Last ned en lommebok"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Bekreft handlingen i {{ name }}",
+            "text": "Det vil ta et par sekunder."
+        },
+        "transactionSent": "$varsel.transactionSent",
+        "transactionCanceled": "$varsel.transaksjonkansellert"
+    }
+}

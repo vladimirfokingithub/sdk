@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Заплющити",
+        "openWallet": "Відкрити гаманець",
+        "copyLink": "Копіювати посилання",
+        "linkCopied": "Посилання скопійовано",
+        "copied": "Посилання скопійовано",
+        "yourWallet": "Ваш гаманець",
+        "retry": "Повторивши",
+        "get": "Скачавши",
+        "mobile": "Мобільний",
+        "browserExtension": "Розширення",
+        "desktop": "Десктоп"
+    },
+    "button":
+    {
+        "connectWallet": "Підключити гаманець",
+        "dropdown":
+        {
+            "copy": "Скопіювати адресу",
+            "copied": "Адреса скопійована!",
+            "disconnect": "Відключити гаманець"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Відкрийте {{ name }}, щоб підтвердити транзакцію."
+        },
+        "transactionSent":
+        {
+            "header": "Транзакція відправлена",
+            "text": "Ваша транзакція буде оброблена через кілька секунд."
+        },
+        "transactionCanceled":
+        {
+            "header": "Транзакція скасована",
+            "text": "Стан вашого рахунку не зміниться."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Wallet в",
+        "recent": "Недавній",
+        "installed": "Установлений",
+        "popular": "Популярний"
+    },
+    "walletModal":
+    {
+        "loading": "Гаманці завантажуються",
+        "wallets": "Гаманець",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Підключіть гаманець",
+            "openWalletOnTelegramOrSelect": "Підключіть Wallet в Telegram або виберете гаманець для підключення",
+            "openWalletOnTelegram": "Відкрити Wallet в Telegram",
+            "openLink": "Відкрити посилання",
+            "scan": "Відскануйте камерою вашого телефону"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Підключіть гаманець",
+            "scan": "Відскануйте QR-код камерою телефону",
+            "availableWallets": "Доступні гаманці"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "Показати QR-код",
+            "scanQR": "Відскануйте QR-код нижче камерою в додатку {{ name }}, або камерою телефону",
+            "continueIn": "Продовжуйте в {{ name }}…",
+            "connectionDeclined": "Підключення відхилено"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Відскануйте QR-код нижче камерою в додатку {{ name }}, або камерою телефону",
+            "continueInExtension": "Відкрийте розширення браузера {{ name }}",
+            "dontHaveExtension": "Схоже, у вас не встановлено розширення браузера {{ name }}",
+            "getWallet": "Завантажити {{ name }}",
+            "continueOnDesktop": "Відкрийте {{ name }} на комп'ютері…",
+            "openWalletOnTelegram": "Відкрити Wallet в Telegram",
+            "connectionDeclined": "Підключення відхилено"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Що таке гаманець?",
+            "secureDigitalAssets": "Надійне сховище цифрових активів",
+            "walletProtects": "Гаманець захищає та керує вашими цифровими активами, включаючи TON, токени та предмети колекціонування.",
+            "controlIdentity": "Контроль своєї особистості Web3",
+            "manageIdentity": "Керуйте своєю цифровою ідентифікацією і з легкістю отримуйте доступ до децентралізованих додатків. Зберігайте контроль над своїми даними та безпечно беріть участь в екосистемі blockchain.",
+            "effortlessCryptoTransactions": "Прості криптотранзакції",
+            "easilySend": "Легко надсилайте, Отримуйте та відстежуйте свої криптовалюти. Оптимізуйте свої операції за допомогою децентралізованих додатків.",
+            "getAWallet": "Завантажити гаманець"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Підтвердьте дію в {{ name }}",
+            "text": "Це займе пару секунд."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

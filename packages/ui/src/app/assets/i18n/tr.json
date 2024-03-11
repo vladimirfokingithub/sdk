@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Kapat",
+        "openWallet": "Cüzdanı aç",
+        "copyLink": "Bağlantıyı kopyala",
+        "linkCopied": "Bağlantı kopyalandı",
+        "copied": "Bağlantı kopyalandı",
+        "yourWallet": "Cüzdanınız",
+        "retry": "Tekrarlamak",
+        "get": "İndirmek",
+        "mobile": "Mobil",
+        "browserExtension": "Genişleme",
+        "desktop": "Masaüstü bilgisayar"
+    },
+    "button":
+    {
+        "connectWallet": "Cüzdanı bağla",
+        "dropdown":
+        {
+            "copy": "Adresi kopyala",
+            "copied": "Adres kopyalandı!",
+            "disconnect": "Cüzdanı devre dışı bırak"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "İşlemi onaylamak için {{ name }} öğesini açın."
+        },
+        "transactionSent":
+        {
+            "header": "İşlem gönderildi",
+            "text": "İşleminiz birkaç saniye sonra işlenecektir."
+        },
+        "transactionCanceled":
+        {
+            "header": "İşlem iptal edildi",
+            "text": "Hesabınızın durumu değişmeyecek."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Cüzdan içinde",
+        "recent": "Son zamanlarda",
+        "installed": "Belirli",
+        "popular": "Popüler"
+    },
+    "walletModal":
+    {
+        "loading": "Cüzdanlar yükleniyor",
+        "wallets": "Cüzdanlar",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Cüzdanı bağlayın",
+            "openWalletOnTelegramOrSelect": "Cüzdan'ı Telegram'a bağlayın veya bağlanmak için bir cüzdan seçin",
+            "openWalletOnTelegram": "Telegram'da Cüzdan'ı açın",
+            "openLink": "Bağlantıyı aç",
+            "scan": "Telefonunuzun kamerasıyla tarayın"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Cüzdanı bağlayın",
+            "scan": "QR kodunu telefonunuzun kamerasıyla tarayın",
+            "availableWallets": "Uygun fiyatlı cüzdanlar"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "QR kodunu göster",
+            "scanQR": "Aşağıdaki QR kodunu {{ name }} uygulamasındaki kamerayla veya telefon kamerasıyla tarayın",
+            "continueIn": "{{ name }} ile devam edin…",
+            "connectionDeclined": "Bağlantı reddedildi"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Aşağıdaki QR kodunu {{ name }} uygulamasındaki kamerayla veya telefon kamerasıyla tarayın",
+            "continueInExtension": "Tarayıcı uzantısını açın {{ name }}",
+            "dontHaveExtension": "Görünüşe göre yüklü bir tarayıcı uzantınız yok {{ name }}",
+            "getWallet": "İndir {{ name }}",
+            "continueOnDesktop": "Bilgisayarda {{ name }} öğesini açın…",
+            "openWalletOnTelegram": "Telegram'da Cüzdan'ı açın",
+            "connectionDeclined": "Bağlantı reddedildi"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Cüzdan nedir?",
+            "secureDigitalAssets": "Dijital varlıkların güvenilir bir şekilde depolanması",
+            "walletProtects": "Cüzdan, ton'lar, jetonlar ve koleksiyonlar dahil dijital varlıklarınızı korur ve yönetir.",
+            "controlIdentity": "Web3 kimliğinizi kontrol etmek",
+            "manageIdentity": "Dijital kimliğinizi yönetin ve merkezi olmayan uygulamalara kolaylıkla erişin. Verilerinizin kontrolünü elinizde tutun ve blockchain ekosistemine güvenli bir şekilde katılın.",
+            "effortlessCryptoTransactions": "Basit kripto işlemleri",
+            "easilySend": "Kripto para birimlerinizi kolayca gönderin, alın ve takip edin. Merkezi olmayan uygulamalarla operasyonlarınızı optimize edin.",
+            "getAWallet": "Cüzdanı indir"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Eylemi {{ name }} adresinde onaylayın",
+            "text": "Bu birkaç saniye sürecek."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

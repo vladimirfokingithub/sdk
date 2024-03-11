@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Жабуу",
+        "openWallet": "Капчыкты ачуу",
+        "copyLink": "Шилтемени көчүрүү",
+        "linkCopied": "Шилтеме көчүрүлдү",
+        "copied": "Шилтеме көчүрүлдү",
+        "yourWallet": "Сиздин капчык",
+        "retry": "Кайталоо",
+        "get": "Жүктөп алуу",
+        "mobile": "Мобилдик",
+        "browserExtension": "Кеңейтүү",
+        "desktop": "Иштөө"
+    },
+    "button":
+    {
+        "connectWallet": "Капчыкты кошуу",
+        "dropdown":
+        {
+            "copy": "Даректи көчүрүү",
+            "copied": "Дарек көчүрүлдү!",
+            "disconnect": "Капчыкты сууруп алыңыз"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Транзакцияны ырастоо үчүн {{ name }} ачыңыз."
+        },
+        "transactionSent":
+        {
+            "header": "Транзакция жөнөтүлдү",
+            "text": "Транзакцияңыз бир нече секунддан кийин иштетилет."
+        },
+        "transactionCanceled":
+        {
+            "header": "Транзакция жокко чыгарылды",
+            "text": "Эсебиңиздин абалы өзгөрбөйт."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Wallet нарын",
+        "recent": "Акыркы",
+        "installed": "Орнотулган",
+        "popular": "Таанымал"
+    },
+    "walletModal":
+    {
+        "loading": "Капчыктар жүктөлөт",
+        "wallets": "Келүү",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Капчыкты Туташтырыңыз",
+            "openWalletOnTelegramOrSelect": "Туташуу > > > > туташуу үчүн Капчыкты тандаңыз",
+            "openWalletOnTelegram": "Ачуу Wallet нарын Telegram",
+            "openLink": "Шилтемени ачуу",
+            "scan": "Телефонуңуздун камерасын сканерлеңиз"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Капчыкты Туташтырыңыз",
+            "scan": "Телефонуңуздун камерасы менен сос кодун сканерлеңиз",
+            "availableWallets": "Жеткиликтүү капчыктар"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "Көрсөтүү-коду",
+            "scanQR": "СКАНДООШ-колдонмодогу камера менен төмөндөгү код {{ name }}, же телефон камерасы",
+            "continueIn": "{{ name }} улантуу…",
+            "connectionDeclined": "Туташуу четке кагылды"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "СКАНДООШ-колдонмодогу камера менен төмөндөгү код {{ name }}, же телефон камерасы",
+            "continueInExtension": "{{ name }} Браузердин кеңейтүүсүн ачыңыз",
+            "dontHaveExtension": "Сизде браузердин кеңейтүүсү орнотулган жок окшойт {{ name }}",
+            "getWallet": "Жүктөө {{ name }}",
+            "continueOnDesktop": "Компьютерде {{ name }} ачыңыз…",
+            "openWalletOnTelegram": "Ачуу Wallet нарын Telegram",
+            "connectionDeclined": "Туташуу четке кагылды"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Капчык деген эмне?",
+            "secureDigitalAssets": "Санариптик активдерди ишенимдүү сактоо",
+            "walletProtects": "Капчык сиздин санариптик активдериңизди, анын ичинде ӨКТӨРДҮ, энбелгилерди жана коллекцияларды коргойт жана башкарат.",
+            "controlIdentity": "Сиздин инсандыгыңызды башкаруу3",
+            "manageIdentity": "Санариптик идентификацияңызды башкарыңыз жана борбордон ажыратылган колдонмолорго оңой жетиңиз. Маалыматтарыңызды көзөмөлдөп туруңуз жана блокчейн экосистемасына коопсуз катышыңыз.",
+            "effortlessCryptoTransactions": "Жөнөкөй крипто транзакциялар",
+            "easilySend": "Криптовалюталарыңызды оңой жөнөтүңүз, алыңыз жана көзөмөлдөңүз. Борбордон ажыратылган колдонмолор менен операцияларыңызды оптималдаштырыңыз.",
+            "getAWallet": "Капчыкты жүктөп алыңыз"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "{{ name }} Аракетин ырастаңыз",
+            "text": "Бул эки секундга созулат."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

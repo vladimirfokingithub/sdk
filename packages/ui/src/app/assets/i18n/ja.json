@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "閉じるには",
+        "openWallet": "財布を開く",
+        "copyLink": "リンクをコピーする",
+        "linkCopied": "リンクがコピーされました",
+        "copied": "リンクがコピーされました",
+        "yourWallet": "お財布",
+        "retry": "繰り返し",
+        "get": "ダウンロード",
+        "mobile": "モバイル",
+        "browserExtension": "拡張",
+        "desktop": "デスクトップ"
+    },
+    "button":
+    {
+        "connectWallet": "ウォレットを接続する",
+        "dropdown":
+        {
+            "copy": "アドレスをコピーする",
+            "copied": "アドレスがコピーされました！",
+            "disconnect": "ウォレットを無効にする"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "{{ name }}を開いてトランザクションを確認します。"
+        },
+        "transactionSent":
+        {
+            "header": "トランザクションが送信されました",
+            "text": "あなたのトランザクションは数秒で処理されます。"
+        },
+        "transactionCanceled":
+        {
+            "header": "トランザクションがキャンセルされました",
+            "text": "アカウントのステータスは変更されません。"
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "財布の中に",
+        "recent": "最近の",
+        "installed": "インストール済み",
+        "popular": "人気の"
+    },
+    "walletModal":
+    {
+        "loading": "ウォレットがロードされています",
+        "wallets": "財布",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "あなたの財布を接続してください",
+            "openWalletOnTelegramOrSelect": "ウォレットをTelegramに接続するか、接続先のウォレットを選択します",
+            "openWalletOnTelegram": "Telegramでウォレットを開く",
+            "openLink": "リンクを開く",
+            "scan": "お使いの携帯電話のカメラでスキャン"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "あなたの財布を接続してください",
+            "scan": "お使いの携帯電話のカメラでQRコードをスキャン",
+            "availableWallets": "利用可能な財布"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "QRコードを表示する",
+            "scanQR": "以下のQRコードを{{ name }}アプリのカメラ、または携帯電話のカメラでスキャンします",
+            "continueIn": "{{ name }}に続く…",
+            "connectionDeclined": "接続が拒否されました"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "以下のQRコードを{{ name }}アプリのカメラ、または携帯電話のカメラでスキャンします",
+            "continueInExtension": "ブラウザ拡張子{{ name }}を開きます",
+            "dontHaveExtension": "ブラウザ拡張子{{ name }}がインストールされていないようです",
+            "getWallet": "ダウンロード{{ name }}",
+            "continueOnDesktop": "コンピュータで{{ name }}を開く…",
+            "openWalletOnTelegram": "Telegramでウォレットを開く",
+            "connectionDeclined": "接続が拒否されました"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "財布とは何ですか？",
+            "secureDigitalAssets": "デジタル資産の信頼性の高いストレージ",
+            "walletProtects": "ウォレットは、TON、トークン、収集品などのデジタル資産を保護および管理します。",
+            "controlIdentity": "あなたのアイデンティティWeb3の制御",
+            "manageIdentity": "デジタルidを管理し、分散型アプリケーションに簡単にアクセスできます。 データの管理を維持し、ブロックチェーンエコシステムに安全に参加してください。",
+            "effortlessCryptoTransactions": "単純な暗号化トランザクション",
+            "easilySend": "簡単に送信、受信、およびあなたのcryptocurrenciesを追跡します。 分散型アプリケーションで運用を最適化します。",
+            "getAWallet": "ウォレットをダウンロードする"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "{{ name }}でアクションを確認します",
+            "text": "それは数秒かかります。"
+        },
+        "transactionSent": "✓通知。お問い合わせ先：株式会社アイ-エス",
+        "transactionCanceled": "✓通知。トランザクションキャンセル"
+    }
+}

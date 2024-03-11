@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Yopish",
+        "openWallet": "Hamyonni oching",
+        "copyLink": "Havolani nusxalash",
+        "linkCopied": "Havola ko'chirildi",
+        "copied": "Havola ko'chirildi",
+        "yourWallet": "Sizning hamyoningiz",
+        "retry": "Takrorlang",
+        "get": "Yuklab olish",
+        "mobile": "Mobil",
+        "browserExtension": "Kengaytirish",
+        "desktop": "Ish stoli"
+    },
+    "button":
+    {
+        "connectWallet": "Hamyonni ulang",
+        "dropdown":
+        {
+            "copy": "Manzilni nusxalash",
+            "copied": "Manzil ko'chirildi!",
+            "disconnect": "Hamyonni o'chiring"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Tranzaksiyani tasdiqlash uchun {{ name }} ni oching."
+        },
+        "transactionSent":
+        {
+            "header": "Tranzaksiya yuborildi",
+            "text": "Sizning operatsiyangiz bir necha soniyadan so'ng amalga oshiriladi."
+        },
+        "transactionCanceled":
+        {
+            "header": "Bitim bekor qilindi",
+            "text": "Hisobingizning holati o'zgarmaydi."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Hamyon",
+        "recent": "Yaqinda",
+        "installed": "O'rnatilgan",
+        "popular": "Mashhur"
+    },
+    "walletModal":
+    {
+        "loading": "Hamyonlar yuklanadi",
+        "wallets": "Hamyonlar",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Hamyonni ulang",
+            "openWalletOnTelegramOrSelect": "Telegramda Wallet-ni ulang yoki ulanish uchun hamyonni tanlang",
+            "openWalletOnTelegram": "Telegramda hamyonni oching",
+            "openLink": "Havolani oching",
+            "scan": "Telefoningiz kamerasi bilan skanerlang"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Hamyonni ulang",
+            "scan": "Telefoningiz kamerasi bilan QR kodini skanerlang",
+            "availableWallets": "Hamyonbop"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "QR kodini ko'rsatish",
+            "scanQR": "Quyidagi QR kodini {{ name }} ilovasidagi kamera yoki telefon kamerasi bilan skanerlang",
+            "continueIn": "{{ name }} da davom eting…",
+            "connectionDeclined": "Ulanish rad etildi"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Quyidagi QR kodini {{ name }} ilovasidagi kamera yoki telefon kamerasi bilan skanerlang",
+            "continueInExtension": "Brauzer kengaytmasini oching {{ name }}",
+            "dontHaveExtension": "Sizda {{ name }} brauzer kengaytmasi o'rnatilmagan ko'rinadi",
+            "getWallet": "Yuklab olish {{ name }}",
+            "continueOnDesktop": "Kompyuterda {{ name }} ni oching…",
+            "openWalletOnTelegram": "Telegramda hamyonni oching",
+            "connectionDeclined": "Ulanish rad etildi"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Hamyon nima?",
+            "secureDigitalAssets": "Ishonchli raqamli aktivlarni saqlash",
+            "walletProtects": "Hamyon sizning raqamli aktivlaringizni, shu jumladan TON, tokenlar va kollektsiyalarni himoya qiladi va ularni boshqaradi.",
+            "controlIdentity": "Web3 shaxsingizni boshqarish",
+            "manageIdentity": "Raqamli identifikatoringizni boshqaring va markazlashtirilmagan ilovalarga osongina kiring. Ma'lumotlaringiz ustidan nazoratni saqlang va blockchain ekotizimida xavfsiz ishtirok eting.",
+            "effortlessCryptoTransactions": "Oddiy kriptotransaktsiyalar",
+            "easilySend": "Kriptovalyutalaringizni osongina yuboring, qabul qiling va kuzatib boring. Markazlashtirilmagan ilovalar yordamida operatsiyalaringizni optimallashtiring.",
+            "getAWallet": "Hamyonni yuklab oling"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "{{ name }} da amalni tasdiqlang",
+            "text": "Bu bir necha soniya davom etadi."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

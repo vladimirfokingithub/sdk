@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Chiudere",
+        "openWallet": "Apri il portafoglio",
+        "copyLink": "Copia collegamento",
+        "linkCopied": "Link copiato",
+        "copied": "Link copiato",
+        "yourWallet": "Il tuo portafoglio",
+        "retry": "Ripetere",
+        "get": "Scarica",
+        "mobile": "Mobile",
+        "browserExtension": "Estensione",
+        "desktop": "Desktop"
+    },
+    "button":
+    {
+        "connectWallet": "Collega il portafoglio",
+        "dropdown":
+        {
+            "copy": "Copia indirizzo",
+            "copied": "Indirizzo copiato!",
+            "disconnect": "Disabilita portafoglio"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Apri {{ name }} per confermare la transazione."
+        },
+        "transactionSent":
+        {
+            "header": "Transazione inviata",
+            "text": "La transazione verrà elaborata in pochi secondi."
+        },
+        "transactionCanceled":
+        {
+            "header": "Transazione annullata",
+            "text": "Lo stato del tuo account non cambierà."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Portafoglio",
+        "recent": "Recente",
+        "installed": "Stabilito",
+        "popular": "Popolare"
+    },
+    "walletModal":
+    {
+        "loading": "I portafogli vengono caricati",
+        "wallets": "Portamonete",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Collega il portafoglio",
+            "openWalletOnTelegramOrSelect": "Collega Wallet a Telegram o scegli un portafoglio per connetterti",
+            "openWalletOnTelegram": "Apri Wallet in Telegram",
+            "openLink": "Apri il link",
+            "scan": "Scansiona con la fotocamera del tuo telefono"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Collega il portafoglio",
+            "scan": "Scansiona il codice QR con la fotocamera del tuo telefono",
+            "availableWallets": "Portafogli convenienti"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "Mostra codice QR",
+            "scanQR": "Scansiona il codice QR qui sotto con la fotocamera nell'app {{ name }} o con la fotocamera del telefono",
+            "continueIn": "Continua in {{ name }}…",
+            "connectionDeclined": "Connessione rifiutata"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Scansiona il codice QR qui sotto con la fotocamera nell'app {{ name }} o con la fotocamera del telefono",
+            "continueInExtension": "Apri l'estensione del browser {{ name }}",
+            "dontHaveExtension": "Sembra che tu non abbia installato l'estensione del browser {{ name }}",
+            "getWallet": "Scarica {{ name }}",
+            "continueOnDesktop": "Apri {{ name }} sul computer…",
+            "openWalletOnTelegram": "Apri Wallet in Telegram",
+            "connectionDeclined": "Connessione rifiutata"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Che cos'è un portafoglio?",
+            "secureDigitalAssets": "Archiviazione affidabile delle risorse digitali",
+            "walletProtects": "Il portafoglio protegge e gestisce le tue risorse digitali, inclusi TON, token e oggetti da collezione.",
+            "controlIdentity": "Controllo della propria identità Web3",
+            "manageIdentity": "Gestisci la tua identità digitale e accedi facilmente alle applicazioni decentralizzate. Mantieni il controllo dei tuoi dati e partecipa in sicurezza all'ecosistema blockchain.",
+            "effortlessCryptoTransactions": "Transazioni crittografiche semplici",
+            "easilySend": "Invia, ricevi e monitora facilmente le tue criptovalute. Ottimizza le tue operazioni con applicazioni decentralizzate.",
+            "getAWallet": "Scarica portafoglio"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Conferma l'azione in {{ name }}",
+            "text": "Ci vorranno un paio di secondi."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

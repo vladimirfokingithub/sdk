@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Schließen",
+        "openWallet": "Geldbörse öffnen",
+        "copyLink": "Link kopieren",
+        "linkCopied": "Link kopiert",
+        "copied": "Link kopiert",
+        "yourWallet": "Dein Portemonnaie",
+        "retry": "Wiederholen",
+        "get": "Herunterladen",
+        "mobile": "Mobil",
+        "browserExtension": "Erweiterung",
+        "desktop": "Desktop"
+    },
+    "button":
+    {
+        "connectWallet": "Geldbörse verbinden",
+        "dropdown":
+        {
+            "copy": "Adresse kopieren",
+            "copied": "Die Adresse wurde kopiert!",
+            "disconnect": "Brieftasche deaktivieren"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Öffnen Sie {{ name }}, um die Transaktion zu bestätigen."
+        },
+        "transactionSent":
+        {
+            "header": "Die Transaktion wurde gesendet",
+            "text": "Ihre Transaktion wird in wenigen Sekunden verarbeitet."
+        },
+        "transactionCanceled":
+        {
+            "header": "Transaktion abgebrochen",
+            "text": "Der Status Ihres Kontos ändert sich nicht."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Wallet in",
+        "recent": "Jüngst",
+        "installed": "Eingestellt",
+        "popular": "Beliebt"
+    },
+    "walletModal":
+    {
+        "loading": "Geldbörsen werden geladen",
+        "wallets": "Geldbeutel",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Schließen Sie Ihre Brieftasche an",
+            "openWalletOnTelegramOrSelect": "Schließen Sie Wallet in Telegram an oder wählen Sie eine Brieftasche aus, die Sie verbinden möchten",
+            "openWalletOnTelegram": "Wallet in Telegram öffnen",
+            "openLink": "Link öffnen",
+            "scan": "Scannen Sie mit der Kamera Ihres Telefons"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Schließen Sie Ihre Brieftasche an",
+            "scan": "Scannen Sie den QR-Code mit der Kamera Ihres Telefons",
+            "availableWallets": "Verfügbare Geldbörsen"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "QR-Code anzeigen",
+            "scanQR": "Scannen Sie den folgenden QR-Code mit der Kamera in der Anwendung {{ name }} oder mit der Handykamera",
+            "continueIn": "Fahren Sie mit {{ name }} fort…",
+            "connectionDeclined": "Verbindung abgelehnt"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Scannen Sie den folgenden QR-Code mit der Kamera in der Anwendung {{ name }} oder mit der Handykamera",
+            "continueInExtension": "Öffnen Sie die Browser-Erweiterung {{ name }}",
+            "dontHaveExtension": "Es scheint, dass Sie die Browser-Erweiterung {{ name }} nicht installiert haben",
+            "getWallet": "Herunterladen {{ name }}",
+            "continueOnDesktop": "Öffnen Sie {{ name }} auf dem Computer…",
+            "openWalletOnTelegram": "Wallet in Telegram öffnen",
+            "connectionDeclined": "Verbindung abgelehnt"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Was ist eine Geldbörse?",
+            "secureDigitalAssets": "Zuverlässiger Speicher für digitale Assets",
+            "walletProtects": "Die Brieftasche schützt und verwaltet Ihre digitalen Assets, einschließlich TON, Token und Sammlerstücke.",
+            "controlIdentity": "Kontrolle Ihrer Identität Web3",
+            "manageIdentity": "Verwalten Sie Ihre digitale Identität und greifen Sie problemlos auf dezentrale Anwendungen zu. Behalten Sie die Kontrolle über Ihre Daten und nehmen Sie sicher am Blockchain-Ökosystem teil.",
+            "effortlessCryptoTransactions": "Einfache Kryptotransaktionen",
+            "easilySend": "Senden, empfangen und verfolgen Sie Ihre Kryptowährungen einfach. Optimieren Sie Ihre Operationen mit dezentralen Anwendungen.",
+            "getAWallet": "Geldbörse herunterladen"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Bestätigen Sie die Aktion in {{ name }}",
+            "text": "Es dauert ein paar Sekunden."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

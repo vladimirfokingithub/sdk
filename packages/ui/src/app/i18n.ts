@@ -1,10 +1,45 @@
 import en from 'src/app/assets/i18n/en.json';
 import ru from 'src/app/assets/i18n/ru.json';
+import es from 'src/app/assets/i18n/es.json';
+import pt from 'src/app/assets/i18n/pt.json';
+import zh from 'src/app/assets/i18n/zh.json';
+import uz from 'src/app/assets/i18n/uz.json';
+import uk from 'src/app/assets/i18n/uk.json';
+import tr from 'src/app/assets/i18n/tr.json';
+import de from 'src/app/assets/i18n/de.json';
+import fa from 'src/app/assets/i18n/fa.json';
+import ar from 'src/app/assets/i18n/ar.json';
+import it from 'src/app/assets/i18n/it.json';
+import fr from 'src/app/assets/i18n/fr.json';
+import id from 'src/app/assets/i18n/id.json';
+import pl from 'src/app/assets/i18n/pl.json';
+import ja from 'src/app/assets/i18n/ja.json';
+import kk from 'src/app/assets/i18n/kk.json';
+import ky from 'src/app/assets/i18n/ky.json';
+import no from 'src/app/assets/i18n/no.json';
+
 import { Locales } from 'src/models/locales';
 
 export const i18nDictionary: Record<Locales, object> = {
     en: parseDictionary(en),
-    ru: parseDictionary(ru)
+    ru: parseDictionary(ru),
+    es: parseDictionary(es),
+    pt: parseDictionary(pt),
+    zh: parseDictionary(zh),
+    uz: parseDictionary(uz),
+    uk: parseDictionary(uk),
+    tr: parseDictionary(tr),
+    de: parseDictionary(de),
+    fa: parseDictionary(fa),
+    ar: parseDictionary(ar),
+    it: parseDictionary(it),
+    fr: parseDictionary(fr),
+    id: parseDictionary(id),
+    pl: parseDictionary(pl),
+    ja: parseDictionary(ja),
+    kk: parseDictionary(kk),
+    ky: parseDictionary(ky),
+    no: parseDictionary(no)
 };
 
 // replace '$key1.key2.key3' with it's value

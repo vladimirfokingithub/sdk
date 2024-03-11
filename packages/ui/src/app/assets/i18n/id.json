@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Untuk menutup",
+        "openWallet": "Buka dompet",
+        "copyLink": "Salin tautannya",
+        "linkCopied": "Tautan telah disalin",
+        "copied": "Tautan telah disalin",
+        "yourWallet": "Dompet Anda",
+        "retry": "Ulangi",
+        "get": "Unduh",
+        "mobile": "Mobil",
+        "browserExtension": "Ekspansi",
+        "desktop": "Desktop"
+    },
+    "button":
+    {
+        "connectWallet": "Hubungkan dompet",
+        "dropdown":
+        {
+            "copy": "Salin alamatnya",
+            "copied": "Alamatnya sudah disalin!",
+            "disconnect": "Nonaktifkan dompet"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Buka {{ name }} untuk mengonfirmasi transaksi."
+        },
+        "transactionSent":
+        {
+            "header": "Transaksi telah dikirim",
+            "text": "Transaksi Anda akan diproses dalam beberapa detik."
+        },
+        "transactionCanceled":
+        {
+            "header": "Transaksi telah dibatalkan",
+            "text": "Status akun Anda tidak akan berubah."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Dompet dalam",
+        "recent": "Baru-baru ini",
+        "installed": "Terpasang",
+        "popular": "Populer"
+    },
+    "walletModal":
+    {
+        "loading": "Dompet sedang dimuat",
+        "wallets": "Dompet",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Hubungkan dompet Anda",
+            "openWalletOnTelegramOrSelect": "Hubungkan Dompet Anda ke Telegram atau pilih dompet untuk dihubungkan",
+            "openWalletOnTelegram": "Buka Dompet di Telegram",
+            "openLink": "Buka tautannya",
+            "scan": "Pindai dengan kamera ponsel Anda"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Hubungkan dompet Anda",
+            "scan": "Pindai kode QR dengan kamera ponsel Anda",
+            "availableWallets": "Dompet yang tersedia"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "Tampilkan kode QR",
+            "scanQR": "Pindai kode QR di bawah ini dengan kamera di aplikasi {{name}}, atau dengan kamera ponsel Anda",
+            "continueIn": "Lanjutkan dalam {{ name }}…",
+            "connectionDeclined": "Koneksi ditolak"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Pindai kode QR di bawah ini dengan kamera di aplikasi {{name}}, atau dengan kamera ponsel Anda",
+            "continueInExtension": "Buka ekstensi browser {{ name }}",
+            "dontHaveExtension": "Sepertinya Anda belum menginstal ekstensi browser {{ name }} ",
+            "getWallet": "Unduh {{nama }}",
+            "continueOnDesktop": "Buka {{ name }} di komputer Anda…",
+            "openWalletOnTelegram": "Buka Dompet di Telegram",
+            "connectionDeclined": "Koneksi ditolak"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Apa itu dompet?",
+            "secureDigitalAssets": "Penyimpanan aset digital yang andal",
+            "walletProtects": "Dompet melindungi dan mengelola aset digital Anda, termasuk TON, token, dan barang koleksi.",
+            "controlIdentity": "Kontrol Identitas Anda Web3",
+            "manageIdentity": "Kelola identitas digital Anda dan akses aplikasi terdesentralisasi dengan mudah. Kendalikan data Anda dan berpartisipasi dengan aman dalam ekosistem blockchain.",
+            "effortlessCryptoTransactions": "Transaksi Kripto Sederhana",
+            "easilySend": "Kirim, terima, dan lacak cryptocurrency Anda dengan mudah. Optimalkan operasi Anda dengan aplikasi terdesentralisasi.",
+            "getAWallet": "Unduh dompet"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "Konfirmasikan tindakan di {{ name }}",
+            "text": "Ini akan memakan waktu beberapa detik."
+        },
+        "transactionSent": "$ pemberitahuan.transactionSent",
+        "transactionCanceled": "$ pemberitahuan.transactionCanceled"
+    }
+}

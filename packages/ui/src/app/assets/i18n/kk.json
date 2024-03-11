@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "Жабу",
+        "openWallet": "Әмиянды ашыңыз",
+        "copyLink": "Сілтемені көшіру",
+        "linkCopied": "Сілтеме көшірілді",
+        "copied": "Сілтеме көшірілді",
+        "yourWallet": "Сіздің әмияныңыз",
+        "retry": "Қайталау",
+        "get": "Жүктеу",
+        "mobile": "Ұялы",
+        "browserExtension": "Кеңейту",
+        "desktop": "Жұмыс үстелі"
+    },
+    "button":
+    {
+        "connectWallet": "Әмиянды қосыңыз",
+        "dropdown":
+        {
+            "copy": "Мекенжайды көшіру",
+            "copied": "Мекен-жайы көшірілді!",
+            "disconnect": "Әмиянды ажыратыңыз"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "Транзакцияны растау үшін {{ name }} ашыңыз."
+        },
+        "transactionSent":
+        {
+            "header": "Транзакция жіберілді",
+            "text": "Сіздің транзакцияңыз бірнеше секундтан кейін өңделеді."
+        },
+        "transactionCanceled":
+        {
+            "header": "Транзакция жойылды",
+            "text": "Сіздің шотыңыздың күйі өзгермейді."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "Wallet жылы",
+        "recent": "Соңғы",
+        "installed": "Орнатылған",
+        "popular": "Танымал"
+    },
+    "walletModal":
+    {
+        "loading": "Әмияндар жүктеледі",
+        "wallets": "Әмияндар",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "Әмиянды қосыңыз",
+            "openWalletOnTelegramOrSelect": "Wallet-ті Telegram-ға қосыңыз немесе қосылатын әмиянды таңдаңыз",
+            "openWalletOnTelegram": "Telegram-да Wallet ашыңыз",
+            "openLink": "Сілтемені ашыңыз",
+            "scan": "Телефон камерасымен сканерлеңіз"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "Әмиянды қосыңыз",
+            "scan": "Телефонның камерасымен QR кодын сканерлеңіз",
+            "availableWallets": "Қол жетімді әмияндар"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "QR кодын көрсету",
+            "scanQR": "Төмендегі QR кодын {{ name }} қолданбасындағы камерамен немесе телефон камерасымен сканерлеңіз",
+            "continueIn": "{{ name }} жалғастырыңыз…",
+            "connectionDeclined": "Байланыс қабылданбады"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "Төмендегі QR кодын {{ name }} қолданбасындағы камерамен немесе телефон камерасымен сканерлеңіз",
+            "continueInExtension": "{{ name }}шолғыш кеңейтімін ашыңыз",
+            "dontHaveExtension": "Сізде {{ name }} шолғыш кеңейтімі орнатылмаған сияқты",
+            "getWallet": "Жүктеу {{ name }}",
+            "continueOnDesktop": "Компьютерде {{ name }} ашыңыз…",
+            "openWalletOnTelegram": "Telegram-да Wallet ашыңыз",
+            "connectionDeclined": "Байланыс қабылданбады"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "Әмиян дегеніміз не?",
+            "secureDigitalAssets": "Сандық активтерді сенімді сақтау",
+            "walletProtects": "Әмиян сіздің сандық активтеріңізді, соның ішінде тондарды, токендерді және коллекциялық заттарды қорғайды және басқарады.",
+            "controlIdentity": "Сіздің жеке басыңызды бақылау Web3",
+            "manageIdentity": "Сандық сәйкестендіруді басқарыңыз және орталықтандырылмаған қолданбаларға оңай қол жеткізіңіз. Деректеріңізді бақылауды сақтаңыз және блокчейн экожүйесіне қауіпсіз қатысыңыз.",
+            "effortlessCryptoTransactions": "Қарапайым криптотранзакциялар",
+            "easilySend": "Криптовалюталарды оңай жіберіңіз, алыңыз және қадағалаңыз. Орталықтандырылмаған қолданбалар арқылы операцияларыңызды оңтайландырыңыз.",
+            "getAWallet": "Әмиянды жүктеп алыңыз"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "{{ name }} ішіндегі әрекетті растаңыз",
+            "text": "Бұл бірнеше секундты алады."
+        },
+        "transactionSent": "$notifications.transactionSent",
+        "transactionCanceled": "$notifications.transactionCanceled"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "common":
+    {
+        "close": "برای بستن",
+        "openWallet": "کیف پول را باز کنید",
+        "copyLink": "لینک را کپی کنید",
+        "linkCopied": "لینک کپی شده است",
+        "copied": "لینک کپی شده است",
+        "yourWallet": "کیف پول شما",
+        "retry": "تکرار کن",
+        "get": "دانلود فیلم",
+        "mobile": "موبایل",
+        "browserExtension": "گسترش",
+        "desktop": "دسکتاپ"
+    },
+    "button":
+    {
+        "connectWallet": "یک کیف پول را وصل کنید",
+        "dropdown":
+        {
+            "copy": "آدرس را کپی کنید",
+            "copied": "آدرس کپی شده است!",
+            "disconnect": "غیر فعال کردن کیف پول"
+        }
+    },
+    "notifications":
+    {
+        "confirm":
+        {
+            "header": "برای تایید معامله {{ name }} را باز کنید."
+        },
+        "transactionSent":
+        {
+            "header": "تراکنش ارسال شده است",
+            "text": "معامله شما در عرض چند ثانیه پردازش خواهد شد."
+        },
+        "transactionCanceled":
+        {
+            "header": "معامله لغو شده",
+            "text": "وضعیت حساب شما تغییر نخواهد کرد."
+        }
+    },
+    "walletItem":
+    {
+        "walletOn": "کیف پول در",
+        "recent": "تازه ترین ها",
+        "installed": "نصب شده",
+        "popular": "محبوب"
+    },
+    "walletModal":
+    {
+        "loading": "کیف پول ها بارگذاری می شوند",
+        "wallets": "کیف پول",
+        "mobileUniversalModal":
+        {
+            "connectYourWallet": "کیف پول خود را وصل کنید",
+            "openWalletOnTelegramOrSelect": "کیف پول خود را به تلگرام وصل کنید یا کیف پول را برای اتصال انتخاب کنید",
+            "openWalletOnTelegram": "باز کردن کیف پول در تلگرام",
+            "openLink": "لینک را باز کنید",
+            "scan": "با دوربین گوشی خود اسکن کنید"
+        },
+        "desktopUniversalModal":
+        {
+            "connectYourWallet": "کیف پول خود را وصل کنید",
+            "scan": "کد QR را با دوربین تلفن خود اسکن کنید",
+            "availableWallets": "کیف پول های موجود"
+        },
+        "mobileConnectionModal":
+        {
+            "showQR": "کد QR را نشان دهید",
+            "scanQR": "کد QR زیر را با دوربین در برنامه {{ name }} یا با دوربین تلفن خود اسکن کنید",
+            "continueIn": "ادامه در {{نام }}…",
+            "connectionDeclined": "ارتباط رد شد"
+        },
+        "desktopConnectionModal":
+        {
+            "scanQR": "کد QR زیر را با دوربین در برنامه {{ name }} یا با دوربین تلفن خود اسکن کنید",
+            "continueInExtension": "پسوند مرورگر را باز کنید {{name }}",
+            "dontHaveExtension": "به نظر می رسد که افزونه مرورگر {{ name }} را نصب نکرده اید",
+            "getWallet": "دانلود {{نام }}",
+            "continueOnDesktop": "{{Name }} را در رایانه خود باز کنید…",
+            "openWalletOnTelegram": "باز کردن کیف پول در تلگرام",
+            "connectionDeclined": "ارتباط رد شد"
+        },
+        "infoModal":
+        {
+            "whatIsAWallet": "کیف پول چیست؟",
+            "secureDigitalAssets": "ذخیره سازی قابل اعتماد دارایی های دیجیتال",
+            "walletProtects": "این کیف پول از دارایی های دیجیتال شما محافظت و مدیریت می کند ، از جمله تن ، توکن ها و اشیاء قابل جمع آوری.",
+            "controlIdentity": "کنترل هویت شما Web3",
+            "manageIdentity": "هویت دیجیتال خود را مدیریت کنید و به راحتی به برنامه های غیرمتمرکز دسترسی پیدا کنید. کنترل داده های خود را حفظ کنید و با خیال راحت در اکوسیستم بلاکچین شرکت کنید.",
+            "effortlessCryptoTransactions": "معاملات رمزنگاری ساده",
+            "easilySend": "به راحتی ارزهای رمزنگاری شده خود را ارسال ، دریافت و ردیابی کنید. عملیات خود را با برنامه های غیرمتمرکز بهینه کنید.",
+            "getAWallet": "دانلود کیف پول"
+        }
+    },
+    "actionModal":
+    {
+        "confirmTransaction":
+        {
+            "header": "عمل را در {{ name }}تایید کنید",
+            "text": "چند ثانیه طول می کشد."
+        },
+        "transactionSent": "$اطلاعیه ها.معامله",
+        "transactionCanceled": "$اطلاعیه ها.تراکنش لغو شده"
+    }
+}
